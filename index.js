@@ -1,6 +1,8 @@
 const parse = require('mineral/parser')
+const stringify = require('json-stringify-safe')
 
 module.exports = function (source) {
   this.cacheable && this.cacheable()
-  return 'module.exports = ' + JSON.stringify(parse(source)) + ';'
+  this.value = [source]
+  return 'module.exports = ' + stringify(parse(source)) + ';'
 }
