@@ -1,0 +1,14 @@
+{
+  "name": "mineral-loader",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "url": "git@github.com:0x00A/mineral-loader.git",
+    "type": "git"
+  },
+  "author": "0x00a <paolo@async.ly>",
+  "license": "MIT",
+  "dependencies": {
+    "mineral": "^3.0.0-beta6"
+  }
+}
