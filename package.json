@@ -1,15 +1,15 @@
 {
   "name": "mineral-loader",
-  "version": "1.3.0",
+  "version": "1.3.1",
   "main": "index.js",
   "repository": {
-    "url": "git@github.com:0x00A/mineral-loader.git",
+    "url": "git@github.com:voltraco/mineral-loader.git",
     "type": "git"
   },
-  "author": "0x00a <paolo@async.ly>",
+  "author": "Voltra Co. <hello@voltra.co>",
   "license": "MIT",
   "dependencies": {
     "json-stringify-safe": "^5.0.1",
-    "mineral": "3.0.0-beta8"
+    "mineral": "3.0.4"
   }
 }
