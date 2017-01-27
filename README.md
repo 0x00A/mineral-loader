@@ -6,7 +6,7 @@ After installing this loader, you will be able to use `require()` to read and
 parse mineral templates.
 
 # USAGE
-```json
+```js
 module.exports = {
   node: {
     __dirname: true,
