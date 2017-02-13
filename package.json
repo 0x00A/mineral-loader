@@ -10,6 +10,6 @@
   "license": "MIT",
   "dependencies": {
     "json-stringify-safe": "^5.0.1",
-    "mineral": "3.0.5"
+    "mineral": "3.0.9"
   }
 }
